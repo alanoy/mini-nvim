@@ -17,7 +17,7 @@ require("lazy").setup({
 	{
 		"nvim-treesitter/nvim-treesitter",
 		config = function()
-			require("nvim-treesitter.config").setup({
+			require("nvim-treesitter.configs").setup({
 				auto_install = true,
 			})
 		end,
